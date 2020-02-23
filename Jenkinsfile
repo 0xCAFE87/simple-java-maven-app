@@ -21,11 +21,7 @@ pipeline {
                 }
             }
         }
-<<<<<<< HEAD
         stage('Delivery'){
-=======
-        state('Delivery'){
->>>>>>> 68c27d8336be80c5263b7241f78903e902d7e2d3
             steps {
                 sh './jenkins/scripts/deliver.sh'    
             }    
